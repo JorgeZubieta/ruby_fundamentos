@@ -1,0 +1,15 @@
+Anteriormente mencionamos los paradigmas de programación.
+En este capítulo vamos a conocer otra forma de pensar el mundo de la programación.
+
+El paradigma de programación con objetos o programación orientada a objetos nos
+propone tratar con… ¡Adiviná! Sí, nos permite trabajar con objetos.
+
+Estos objetos pueden ser cualquier cosa, material o abstracta.
+
+Un objeto es cualquier entidad que pueda hacer algo por nosotros para resolver un problema.
+
+Lo importante es que estos objetos viven dentro de un mismo mundo y cada uno de ellos
+va a tener distintas responsabilidades. Además, van a poder comunicarse entre ellos
+mandándose mensajes.
+
+Para aprender a hacer todo esto, vamos a utilizar un lenguaje llamado "Ruby".
