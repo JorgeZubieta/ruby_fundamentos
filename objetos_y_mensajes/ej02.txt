@@ -1,0 +1,12 @@
+Para empezar en este mundo, conozcamos a Pepita, una golondrina (foto).
+
+Pepita, además de ser un ave que come y vuela (como todo pájaro), es un objeto, que vive en el mundo de los objetos, al cual conocemos como ambiente.
+
+¿No nos creés que Pepita está viva y es un objeto? Escribí en la consola Pepita y fijate qué sucede. Cuando te convenzas, pasá al siguiente ejercicio.
+ ¡Dame una pista!
+La consola es el recuadro que tenés a la derecha del texto, y sirve para hacer pruebas rápidas.
+Usarla es muy sencillo: escribí lo que querés probar y luego presioná la tecla Enter para ver su resultado. Si alguna vez usaste alguna terminal, como la de GNU/Linux, la mecánica es la misma.
+
+CONSOLA
+> Pepita
+=> Pepita
