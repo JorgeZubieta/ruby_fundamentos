@@ -1,0 +1,10 @@
+Allí, 40 es un argumento del mensaje, representa en este caso que vamos a alimentar a pepita con 40 gramos de alpiste. Un mensaje podría tomar más de un argumento, separados por coma.
+
+
+> Pepita.volar_hacia! Iruya
+=> nil
+> Pepita.comer_alpiste! 39
+=> nil
+> Pepita.comer_alpiste! 6, Norita
+wrong number of arguments (given 2, expected 1) (ArgumentError)
+>  
