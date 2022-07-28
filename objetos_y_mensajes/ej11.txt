@@ -1,6 +1,6 @@
 Cuando se envía un mensaje a un objeto, y este lo entiende, puede reaccionar de dos formas diferentes:
 	• EFECTO : Podría producir un efecto, es decir hacer algo, o por ejemplo, el mensaje cantar! reproduce el sonido del canto de Pepita.
-	• ALGO : O también podría devolver otro objeto. Por ejemplo el mensaje energia devuelve siempre un número.
+	• ALGO : O también podría devolver otro objeto (mensaje enegria = 110). Por ejemplo el mensaje energia devuelve siempre un número.
 
 En realidad, un mensaje podría reaccionar con una combinación de las formas anteriores: tener un efecto y devolver algo. Pero esto es una muy mala idea.
 
