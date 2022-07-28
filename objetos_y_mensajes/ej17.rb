@@ -11,7 +11,5 @@ Fitito.cargar_nafta!(Fitito.capacidad_tanque_nafta - Fitito.nafta_disponible) #C
 
 # • Solución	
 Pepita.comer_alpiste! 90
-# 2
 Pepita.volar_hacia! Iruya
-# 3
-Pepita.comer_alpiste! (Pepita.energia*10)/100 
+Pepita.comer_alpiste! (Pepita.energia*10)/100
