@@ -16,4 +16,5 @@ Descubrilo: enviale a Pepita esos tres mensajes varias veces en distinto orden
 
 NO CAMBIA y da siempre el mismo valor!
 
-NOTA -> NIl siginifca que este mensaje tiene un efecto sobre otro mensaje como energia!
+NOTA -> NIl siginifca que este mensaje tiene un efecto sobre otro mensaje como energia
+NOTA2 -> ! el sigo de exclamacion determna que este mensaje hace algo!
