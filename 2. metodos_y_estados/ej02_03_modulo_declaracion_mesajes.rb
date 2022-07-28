@@ -47,11 +47,11 @@ end
 
 # Antes de seguir, enviá algunos de los mensajes en la Consola y fijate qué efecto producen sobre nuestra golondrina.
 
-> Pepita
-=> Pepita
-> Pepita.cantar!
-=> nil
-> Pepita.comer_lombriz!
-=> nil
-> Pepita.volar_en_circulos!
-=> nil
+Pepita
+# => Pepita
+Pepita.cantar!
+# => nil
+Pepita.comer_lombriz!
+# => nil
+Pepita.volar_en_circulos!
+# => nil
