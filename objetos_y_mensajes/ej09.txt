@@ -6,10 +6,6 @@ Como vimos, un objeto puede entender múltiples mensajes; a este conjunto de men
 Lo cual también se puede graficar de la siguiente forma:
 
 ¡Un momento! ¿Por qué algunos mensajes terminan en ! y otros no? Enviá nuevamente esos mensajes. Fijate qué devuelve cada uno (lo que está a la derecha del =>) y tratá de descubrir el patrón.
-
-"nil" es la forma que tenemos en Ruby de representar a "la nada"
-(que, casualmente, ¡también es un objeto!).
-
 > Pepita.energia
 => 100
 > Pepita.cantar!
@@ -19,3 +15,7 @@ Lo cual también se puede graficar de la siguiente forma:
 => nil
 > Pepita.volar_en_circulos!
 => nil
+
+"nil" es la forma que tenemos en Ruby de representar a "la nada"
+(que, casualmente, ¡también es un objeto!).
+
