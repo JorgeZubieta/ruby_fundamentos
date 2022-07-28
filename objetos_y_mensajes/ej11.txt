@@ -15,3 +15,5 @@ Descubrilo: enviale a Pepita esos tres mensajes varias veces en distinto orden
 => 110
 
 NO CAMBIA y da siempre el mismo valor!
+
+NOTA -> NIl siginifca que este mensaje tiene un efecto sobre otro mensaje como energia!
