@@ -1,0 +1,39 @@
+
+
+
+
+
+
+EJERCICIO 06
+Comunicación entre objetos por Mensajes, segunda parte
+
+Ehhhh, ¿qué acaba de pasar acá?
+Para comunicarnos con los objetos, debemos enviarles mensajes. Cuando un objeto recibe un mensaje, este responde haciendo algo. En este caso, Pepita produjo el sonido de una golondrina: pri pri pri ...imaginate acá que escuchamos este sonido... . Canto de golondrina.
+¿Qué mas sabrá hacer Pepita? ¿Sabrá, por ejemplo, bailar!?
+¡Descubrámoslo! Enviale el mensaje bailar!
+
+    > Pepita.bailar!
+    undefined method `bailar!' for Pepita:Module (NoMethodError)
+
+EJERCICIO 07
+¡Buu, Pepita no sabía bailar!
+En el mundo de los objetos, sólo tiene sentido enviarle un mensaje a un objeto si lo entiende, es decir, si sabe hacer algo como reacción a ese mensaje. De lo contrario, se lanzará un error un poco feo (y en inglés ) como el siguiente:
+
+    "undefined method `bailar!' for Pepita:Module"
+
+Descubramos qué otras cosas sabe hacer Pepita. Probá enviarle los siguientes mensajes y fijate cuáles entiende y cuales no ¡y anotalos! Este conocimiento nos servirá en breve.
+
+> Pepita.pasear!
+undefined method `pasear!' for Pepita:Module (NoMethodError)
+
+> Pepita.energia
+=> 100
+
+> Pepita.comer_lombriz!
+=> nil
+
+> Pepita.volar_en_circulos!
+=> nil
+
+> Pepita.se_la_banca?
+undefined method `se_la_banca?' for Pepita:Module (NoMethodError)  
