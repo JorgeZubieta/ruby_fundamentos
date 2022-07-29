@@ -23,10 +23,10 @@ End
 module Ushuaia
 End
 
-Con esto en mente:
-	• Creá un atributo ciudad en Pepita: la ciudad donde actualmente está nuestra golondrina.
-	• Hacé que la ciudad inicial de pepita sea Iruya.
-	• Definí un método volar_hacia! en Pepita, que tome como argumento otra ciudad y haga lo necesario.
+# Con esto en mente:
+# 	• Creá un atributo ciudad en Pepita: la ciudad donde actualmente está nuestra golondrina.
+# 	• Hacé que la ciudad inicial de pepita sea Iruya.
+# 	• Definí un método volar_hacia! en Pepita, que tome como argumento otra ciudad y haga lo necesario.
 
 # Al parámetro de volar_hacia! tenés que darle un nombre. Podrías llamarlo ciudad, pero eso colisionaría con el nombre del atributo ciudad. Así que te proponemos otros nombres: una_ciudad o, mejor, destino;
 
