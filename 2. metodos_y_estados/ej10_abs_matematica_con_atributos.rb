@@ -23,54 +23,63 @@
 # Tené en cuenta que el ejemplo que vimos nos muestra el cálculo de la distancia entre Obera e Iruya. Sin embargo, Pepita tiene que poder volar desde su ciudad hasta cualquier destino.
 
 module BuenosAires
-    def self.kilometro
+
+    def
+        self.kilometro
         0
     end
+    
 end
 
 module Obera
-    def self.kilometro
+    def
+        self.kilometro
         1040
     end
 end
 
 module Iruya
-    def self.kilometro
+    def
+        self.kilometro
         1710
     end  
 end
 
 module Pepita
     @energia = 1000
-    @ciudad =
-
-def self.energia
-    @energia 
-end  
-
-def self.ciudad
-    @ciudad
-end
-
-def self.cantar!
-    'pri pri pri'
-end
-
-def self.comer_lombriz!
-    @energia += 20
-end
-
-def self.volar_en_circulos!
-    @energia -= 10
-end
-
-def self.volar_hacia!(destino)
-    @energia = @energia - (@ciudad.kilometro - destino.kilometro).abs / 2
-    # @ciudad.kilometro -> nos da los kilometros de la cuidad actual
-    # destino.kilometro -> kilometros de la ciudad destino
-    # abs convierte a numero absoluto siempre positivo
-    @ciudad = destino
+    @ciudad = Obera  
+#--------------------
+    def
+        self.energia
+        @energia 
     end
+    
+    def
+        self.ciudad
+        @ciudad
+    end
+#--------------------
+    def
+        self.cantar!
+        'pri pri pri'
+    end
+    
+    def
+        self.comer_lombriz!
+        @energia += 20
+    end
+    
+    def
+        self.volar_en_circulos!
+        @energia -= 10
+    end
+    
+    def
+        self.volar_hacia!(x)
+        @energia = @energia - (@ciudad.kilometro - x.kilometro).abs / 2
+        @ciudad = x
+    end
+
 end
 
 # Cuando programamos en este paradigma solemos tener a disposición un montón de objetos que interactúan entre sí, y por lo tanto aprender cuándo usarlos y definirlos es una habilidad fundamental, que irás adquiriendo con la práctica.
