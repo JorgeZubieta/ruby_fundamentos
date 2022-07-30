@@ -1,23 +1,18 @@
-Volar hacia un cierto punto no es tarea tán fácil: en realidad, Pepita pierde tanta energía como la mitad de kilómetros que tenga que recorrer.
+# Volar hacia un cierto punto no es tarea tán fácil: en realidad, Pepita pierde tanta energía como la mitad de kilómetros que tenga que recorrer.
 
-Aunque en el mapa real no sea así, imaginaremos que las ciudades están ubicadas en línea recta, para facilitar los cálculos:
+# ABS
+# ¿Y si Pepita está en Iruya y quiere volar a Obera? ¡También! La distancia entre dos ciudades siempre es un valor positivo . Para resolver esto contamos con el mensaje abs que entienden los números y nos retorna su valor absoluto:
 
-
-
-Por ejemplo, si Pepita está en Obera y quiere volar a Iruya debe recorrer 670 kilómetros, por lo que perderá 335 unidades de energía.
-
-¿Y si Pepita está en Iruya y quiere volar a Obera? ¡También! La distancia entre dos ciudades siempre es un valor positivo . Para resolver esto contamos con el mensaje abs que entienden los números y nos retorna su valor absoluto:
-
-> 17.abs
-=> 17
-> (-17).abs
-=> 17
-> (1710 - 1040).abs
-=> 670
-> (1040 - 1710).abs
-=> 670
-> (1040 - 1710).abs / 2
-=> 335
+# > 17.abs
+# => 17
+# > (-17).abs
+# => 17
+# > (1710 - 1040).abs
+# => 670
+# > (1040 - 1710).abs
+# => 670
+# > (1040 - 1710).abs / 2
+# => 335
 
 # Sabiendo esto:
 # 	• Definí el objeto que representa a BuenosAires.
@@ -77,4 +72,6 @@ def self.volar_hacia!(destino)
     @ciudad = destino
     end
 end
+
+# Cuando programamos en este paradigma solemos tener a disposición un montón de objetos que interactúan entre sí, y por lo tanto aprender cuándo usarlos y definirlos es una habilidad fundamental, que irás adquiriendo con la práctica.
 
