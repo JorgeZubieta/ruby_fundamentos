@@ -1,0 +1,38 @@
+Por ejemplo:
+	- Agregar un elemento enviándole push 
+	- Quitar enviándole delete
+
+
+También podemos saber saber si un elemento está en la colección usando include?:
+	numeros_de_la_suerte.include? 6
+  # Devuelve true, porque contiene al 6...
+
+numeros_de_la_suerte.include? 8
+  # ...devuelve false, porque no contiene al 8.
+
+
+Recordá que, además de los mensajes que vimos recién, podés enviar simplemente numeros_de_la_suerte en la consola para ver qué elementos componen a la colección.
+
+
+numeros_de_la_suerte = [6, 42, 9]
+
+> numeros_de_la_suerte
+=> [6, 42, 9]
+
+> numeros_de_la_suerte.push 69
+=> [6, 42, 9, 69]
+
+> numeros_de_la_suerte.push 100
+=> [6, 42, 9, 69, 100]
+
+> numeros_de_la_suerte.delete 6
+=> 6
+
+> numeros_de_la_suerte
+=> [42, 9, 69, 100]
+
+> numeros_de_la_suerte.size
+=> 4
+
+> numeros_de_la_suerte.include? 9
+=> true
