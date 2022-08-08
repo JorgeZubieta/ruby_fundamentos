@@ -1,3 +1,44 @@
+# BIBLIOTECA
+module CarlosDuty
+    @cantidad_logros = 0
+    def self.violento?
+        # ... 
+    end
+    def self.dificultad
+        # ... 
+    end
+    def self.jugar!(un_tiempo)
+        # ... 
+    end
+    end
+    module TimbaElLeon
+        @dificultad = 25
+    def self.violento?
+        # ... 
+    end
+    def self.dificultad
+        # ... 
+    end
+    def self.jugar!(un_tiempo)
+        # ... 
+    end
+    end
+
+module Metroide
+    @nivel_espacial = 3
+    def self.violento?
+        # ... 
+    end
+    def self.dificultad
+        # ... 
+    end
+    def self.jugar!(un_tiempo)
+        # ... 
+    end
+end
+
+# SOLUCION
+
 module Juegoteca 
     @juegos = [CarlosDuty, TimbaElLeon, Metroide]
     
