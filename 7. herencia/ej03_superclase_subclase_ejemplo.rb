@@ -32,3 +32,35 @@ end
 
 #  ¡Dame una pista!
 # No te olvidés que ahora Celular y Notebook deben heredar de Dispositivo.
+
+# Definí la clase Dispositivo
+#Es importante que en el editor definas arriba la superclase y abajo sus subclases.
+class Dispositivo
+  def initialize
+    @bateria = 100
+  end
+
+  def bateria
+    @bateria
+  end
+  
+  def cargar_a_tope!
+    @bateria = 100
+  end
+end
+
+#y modificá las clases que definiste anteriormente para evitar que haya métodos repetidos entre Celular y Notebook.
+
+
+class Celular < Dispositivo
+    def utilizar!(minutos)
+      @bateria = bateria - minutos / 2
+    end
+end
+
+class Notebook < Dispositivo
+
+  def utilizar!(minutos)
+    @bateria = bateria - minutos
+  end
+end
