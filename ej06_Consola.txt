@@ -1,0 +1,28 @@
+Ejercicio 6: Prueba sorpresa
+¡Tranqui! no es la clase de prueba que estás pensando.
+
+Ya hablamos mucho de las ventajas de la herencia para evitar la repetición de lógica. Pero, ¿funciona todo esto que estuvimos haciendo?
+
+> un_celu = Celular.new
+=> #<Celular:0x00007f8718ad99f8 @bateria=100>
+
+> una_notebook = Notebook.new
+=> #<Notebook:0x00007f5e975c1ac8 @bateria=100>
+
+> un_celu.descargado?
+=> false
+
+> un_celu.utilizar! 180
+=> 10
+
+> un_celu.descargado?
+=> true
+
+> una_notebook.utilizar! 100
+=> 0
+
+> una_notebook.cargar_a_tope!
+=> 100
+
+> una_notebook.descargado?
+=> false
