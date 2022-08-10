@@ -64,3 +64,5 @@ class Notebook < Dispositivo
     @bateria = bateria - minutos
   end
 end
+
+# NOTA - > entendido!
